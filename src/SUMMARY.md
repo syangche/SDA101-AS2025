@@ -7,7 +7,7 @@
     - [Errors and user feedback](./unit1/1.2.md)
     - [Understanding user needs and goals, crafting user personas](./unit1/1.3.md)
     - [Laws of UX](./unit1/1.4.md)
-- [UNIT 2 - Visual Design Principles and Responsive Web Interfaces]()
+<!-- - [UNIT 2 - Visual Design Principles and Responsive Web Interfaces]()
     - [Principles of visual hierarchy in UI design](./unit2/2.1.md)
     - [Typography and font pairing techniques](./unit2/2.2.md)
     - [Contrast and emphasis](./unit2/2.3.md)
@@ -38,4 +38,4 @@
     - [Using SVG and fonts](./unit4/4.9.md)
     - [Responsive web design](./unit4/4.10.md)
     - [Browser developer tools](./unit4/4.11.md)
-    - [Exercises](./unit4/exercises.md)
+    - [Exercises](./unit4/exercises.md) -->
