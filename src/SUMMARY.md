@@ -26,7 +26,7 @@
     - [Tables, Forms and input elements](./unit3/3.5.md)
     - [Semantics](./unit3/3.6.md)
     - [Exercises](./unit3/exercises.md)
-<!-- - [UNIT 4 - CSS]()
+- [UNIT 4 - CSS]()
     - [Selectors and properties](./unit4/4.1.md)
     - [Color and typography](./unit4/4.2.md)
     - [Box model and layout](./unit4/4.3.md)
@@ -38,4 +38,4 @@
     - [Using SVG and fonts](./unit4/4.9.md)
     - [Responsive web design](./unit4/4.10.md)
     - [Browser developer tools](./unit4/4.11.md)
-    - [Exercises](./unit4/exercises.md) -->
+    - [Exercises](./unit4/exercises.md)
