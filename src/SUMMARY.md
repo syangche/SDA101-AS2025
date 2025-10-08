@@ -35,7 +35,6 @@
     - [CSS variables](./unit4/4.6.md)
     - [Media queries ](./unit4/4.7.md)
     - [CSS reset and normalisation](./unit4/4.8.md)
-    - [Using SVG and fonts](./unit4/4.9.md)
     - [Responsive web design](./unit4/4.9.md)
     - [Browser developer tools](./unit4/4.10.md)
     - [Exercises](./unit4/exercises.md)
