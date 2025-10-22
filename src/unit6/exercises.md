@@ -84,6 +84,13 @@ document.getElementById("removeElementBtn").addEventListener("click", () => {
 });
 ```
 
+### Optional Challenge:
+
+Add a new button:
+
+- When clicked, it toggles a class (highlight) on all `<p>` elements to change their color.
+
+
 ---
 ### Exercise 2 - Basic form validation
 Implement a client-side form validation script that checks user input in real-time for a registration form. 
