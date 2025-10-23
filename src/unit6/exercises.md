@@ -92,11 +92,99 @@ Add a new button:
 
 
 ---
+
+---
+---
 ### Exercise 2 - Basic form validation
-Implement a client-side form validation script that checks user input in real-time for a registration form. 
 
-The form should include fields for username, email, password, and password confirmation. 
+Implement **client-side form validation** using **Vanilla JavaScript**.  
+Your goal is to make sure the form checks for valid user input **in real-time** (as the user types), without reloading the page.
 
-Validate each field as the user types, displaying error messages dynamically without page reload. Implement checks for username length, email format, password strength (including minimum length, uppercase, lowercase, and special characters), and password match.
+---
 
-Use JavaScript to handle the validation logic and DOM manipulation for displaying error messages. Additionally, disable the submit button until all fields pass validation
+#### What You’ll Build
+
+A simple **registration form** with the following fields:
+- Username  
+- Email  
+- Password  
+- Confirm Password  
+
+---
+
+##### Step 1: Create the HTML form
+Create a basic HTML form containing:
+- `<input>` fields for username, email, password, and confirm password.  
+- A **Submit** button.  
+- Give each input field a unique `id` so you can easily access them in JavaScript.  
+
+Example:
+```html
+<form id="registerForm">
+  <label>Username</label>
+  <input type="text" id="username" />
+
+  <label>Email</label>
+  <input type="email" id="email" />
+
+  <label>Password</label>
+  <input type="password" id="password" />
+
+  <label>Confirm Password</label>
+  <input type="password" id="confirmPassword" />
+
+  <button type="submit" disabled>Register</button>
+</form>
+<div id="errorMessages"></div>
+```
+
+##### Step 2: Connect JavaScript to your HTML
+
+Link your JavaScript file at the end of the `<body>` section:
+
+```js
+<script src="script.js"></script>
+```
+
+#### Step 3: Add real-time validation
+
+Use JavaScript to check each field **as the user types** (`input` event).
+
+#### Validation Rules
+
+| Field | Validation Rule |
+|-------|------------------|
+| **Username** | Must be at least **3 characters** long |
+| **Email** | Must follow correct email format (e.g., `someone@example.com`) |
+| **Password** | Must include:<br> - Minimum **8 characters** <br> - At least **one uppercase letter** <br> - At least **one lowercase letter** <br> - At least **one special character** (e.g., @, #, $, %) |
+| **Confirm Password** | Must **match the password field** |
+
+---
+
+#### Step 4: Show error messages dynamically
+
+Use **DOM manipulation** to display helpful messages below each input field.
+
+Example:
+```js
+usernameError.textContent = "Username must be at least 3 characters long";
+```
+#### Step 5: Disable the Submit button until all fields are valid
+
+- Initially, keep the **Submit** button **disabled**.  
+- Only enable it when **all validations pass**.
+
+#### Example Logic
+
+```js
+if (allFieldsAreValid) {
+  submitButton.disabled = false;
+} else {
+  submitButton.disabled = true;
+}
+```
+#### Step 6: (Optional) Style your form
+
+Use CSS to make:
+- Error messages appear in red.
+- Valid inputs have green borders.
